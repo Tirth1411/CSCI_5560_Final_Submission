@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ROS.UI</title>
+     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ROS.UI.styles.css" asp-append-version="true" />  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link href="~/adminlte/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link href="~/adminlte/css/adminlte.min.css" rel="stylesheet" />
+
+      <link rel="stylesheet" href="~/adminlte/css/index.css" rel="stylesheet" asp-append-version="true" />
+    <link rel="stylesheet" href="~/adminlte/css/adminlte.css" rel="stylesheet" asp-append-version="true" />
+    <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+</head>
+<body class="hold-transition sidebar-mini">
+   
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+   
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
+     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/adminlte/js/popper.min.js" asp-append-version="true"></script>
+    <script src="~/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        const SELECTOR_SIDEBAR_WRAPPER = ".sidebar-wrapper";
+        const Default = {
+            scrollbarTheme: "os-theme-light",
+            scrollbarAutoHide: "leave",
+            scrollbarClickScroll: true,
+        };
+        document.addEventListener("DOMContentLoaded", function () {
+            const sidebarWrapper = document.querySelector(SELECTOR_SIDEBAR_WRAPPER);
+            if (
+                sidebarWrapper &&
+                typeof OverlayScrollbarsGlobal?.OverlayScrollbars !== "undefined"
+            ) {
+                OverlayScrollbarsGlobal.OverlayScrollbars(sidebarWrapper, {
+                    scrollbars: {
+                        theme: Default.scrollbarTheme,
+                        autoHide: Default.scrollbarAutoHide,
+                        clickScroll: Default.scrollbarClickScroll,
+                    },
+                });
+            }
+        });
+    </script> 
+</body>
+</html>

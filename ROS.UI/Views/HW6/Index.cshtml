@@ -1,0 +1,424 @@
+﻿@model ROS.Model.Shipment;
+
+@await Html.PartialAsync("_ValidationScriptsPartial")
+
+<style>
+    .section-card {
+        border-radius: 10px !important;
+        box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        border: none;
+        margin-bottom: 40px;
+    }
+
+        .section-card .card-header {
+            background: linear-gradient(90deg, #007bff, #00a8ff);
+            color: white;
+            padding: 18px;
+            border-radius: 10px 10px 0 0 !important;
+        }
+
+        .section-card .card-title {
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+    label {
+        font-weight: 600;
+    }
+
+    .form-control {
+        border-radius: 6px;
+        height: 42px;
+    }
+
+    .btn-primary {
+        padding: 10px 28px;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .table thead th {
+        background: #007bff;
+        color: white;
+        border-bottom: none;
+        font-weight: bold;
+    }
+
+    #supplierTable table,
+    #supplierTable1 table {
+        margin-top: 20px;
+    }
+
+    .input-card {
+        background: #f8f9fa;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 10px;
+        border: 1px solid #e0e0e0;
+    }
+</style>
+
+
+<!-- ======================================== -->
+<!-- 1) Insert Shipment 1 -->
+<!-- ======================================== -->
+<div class="card section-card">
+    <div class="card-header">
+        <h3 class="card-title">1) Insert a new tuple ('s2', 'p3', 200, 0.006)</h3>
+    </div>
+
+    <div class="card-body">
+        <form id="frmShipment">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="input-card mb-3">
+                        <label>Sno<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="Sno" asp-for="Sno" />
+                        <span asp-validation-for="Sno" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="input-card mb-3">
+                        <label>Pno<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="Pno" asp-for="Pno" />
+                        <span asp-validation-for="Pno" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="input-card mb-3">
+                        <label>Qty<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="Qty" asp-for="Qty" />
+                        <span asp-validation-for="Qty" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="input-card mb-3">
+                        <label>Price<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="Price" asp-for="Price" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-3">
+                <button type="button" class="btn btn-primary" onclick="funInsertShipment()">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- ======================================== -->
+<!-- 2) Insert Shipment 2 -->
+<!-- ======================================== -->
+<div class="card section-card">
+    <div class="card-header">
+        <h3 class="card-title">2) Insert a new tuple ('s4', 'p2', 100, 0.005)</h3>
+    </div>
+
+    <div class="card-body">
+        <form id="frmShipment2">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="input-card mb-3">
+                        <label>Sno<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="Sno" asp-for="Sno" />
+                        <span asp-validation-for="Sno" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="input-card mb-3">
+                        <label>Pno<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="Pno" asp-for="Pno" />
+                        <span asp-validation-for="Pno" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="input-card mb-3">
+                        <label>Qty<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="Qty" asp-for="Qty" />
+                        <span asp-validation-for="Qty" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="input-card mb-3">
+                        <label>Price<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="Price" asp-for="Price" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-3">
+                <button type="button" class="btn btn-primary" onclick="funInsertShipment2()">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- ======================================== -->
+<!-- 3) Increase Supplier Status -->
+<!-- ======================================== -->
+<div class="card section-card">
+    <div class="card-header">
+        <h3 class="card-title">3) Increase status of each supplier by 10%</h3>
+    </div>
+    <div class="card-body text-center">
+        <button type="button" class="btn btn-primary" onclick="funIncreaseSupplierStatus()">Increase Status</button>
+    </div>
+</div>
+
+<!-- ======================================== -->
+<!-- 4) Display All Suppliers -->
+<!-- ======================================== -->
+<div class="card section-card">
+    <div class="card-header">
+        <h3 class="card-title">4) Display information of all suppliers</h3>
+    </div>
+
+    <div class="card-body text-center">
+        <button type="button" class="btn btn-primary mb-3" onclick="fetchSupplierData()">Display Suppliers</button>
+        <div id="supplierTable"></div>
+    </div>
+</div>
+
+<!-- ======================================== -->
+<!-- 5) Search Supplier by Part -->
+<!-- ======================================== -->
+<div class="card section-card">
+    <div class="card-header">
+        <h3 class="card-title">
+            5) Enter part number and display suppliers who shipped that part
+        </h3>
+    </div>
+
+    <div class="card-body">
+        <div class="input-card">
+            <label>Enter Part Number:</label>
+            <input type="text" id="partNumberInput" class="form-control" placeholder="Enter Part No">
+        </div>
+
+        <div class="text-center mt-3">
+            <button type="button" class="btn btn-primary" onclick="fetchSuppliersByPart()">Search</button>
+        </div>
+
+        <div id="supplierTable1" class="mt-4"></div>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+        //$.validator.unobtrusive.parse($("#frmShipment"));
+        $("#frmShipment").submit(function (event) {
+            event.preventDefault();
+            // funInsertShipment();
+        });
+    });
+
+    // function funInsertShipment() {
+    //     if ($("#frmShipment").valid()) {
+    //         var formData = $("#frmShipment").serialize();
+
+    //         $.ajax({
+    //             url: "@Url.Action("InsertShipment", "HW6")", // Your controller and action
+    //             type: "POST",
+    //             headers: { "RequestVerificationToken": $('#frmShipment input[name="__RequestVerificationToken"]').val() },
+    //             data: formData,
+    //             success: function (response) {
+    //                 if (response.Result === 'OK') {
+    //                     toastr.success(response.Message);
+    //                 } else {
+    //                     toastr.error(response.Message);
+    //                 }
+    //             },
+    //             error: function (request, status, error) {
+    //                 alert("An error occurred: " + request.responseText);
+    //             }
+    //         });
+    //     }
+    // }
+
+    // function funInsertShipment2() {
+    //     if ($("#frmShipment2").valid()) {
+    //         var formData = $("#frmShipment2").serialize();
+
+    //         $.ajax({
+    //             url: "@Url.Action("InsertShipment", "HW6")", // Your controller and action
+    //             type: "POST",
+    //             headers: { "RequestVerificationToken": $('#frmShipment2 input[name="__RequestVerificationToken"]').val() },
+    //             data: formData,
+    //             success: function (response) {
+    //                 if (response.Result == 'OK') {
+    //                     toastr.success(response.Message);
+    //                 } else {
+    //                     toastr.error(response.Message);
+    //                 }
+    //             },
+    //             error: function (request, status, error) {
+    //                 alert("An error occurred: " + request.responseText);
+    //             }
+    //         });
+    //     }
+    // }
+
+    // function funIncreaseSupplierStatus() {
+    //     $.ajax({
+    //         url: "@Url.Action("IncreaseSupplierStatus", "HW6")", // Your controller and action
+    //         type: "POST",
+    //         success: function (response) {
+    //             if (response.Result === 'OK') {
+    //                 toastr.success(response.Message);
+    //             } else {
+    //                 toastr.error(response.Message);
+    //             }
+    //         },
+    //         error: function (request, status, error) {
+    //             alert("An error occurred: " + request.responseText);
+    //         }
+    //     });
+    // }
+
+
+    function funInsertShipment() {
+        if ($("#frmShipment").valid()) {
+            var formData = $("#frmShipment").serialize();
+
+            $.ajax({
+                url: "@Url.Action("InsertShipment", "HW6")", // Your controller and action
+                type: "POST",
+                headers: { "RequestVerificationToken": $('#frmShipment input[name="__RequestVerificationToken"]').val() },
+                data: formData,
+                success: function (response) {
+                    if (response.result === 'Success') {
+                        toastr.success(response.message);  // Show success message
+                    } else if (response.result === 'Warning') {
+                        toastr.warning(response.message);    // Show error message
+                    } else {
+                        toastr.error(response.message);    // Show error message
+                    }
+                },
+                error: function (request, status, error) {
+                    toastr.error("An error occurred: " + request.responseText);  // Show error on failure
+                }
+            });
+        }
+    }
+
+    function funInsertShipment2() {
+        if ($("#frmShipment2").valid()) {
+            var formData = $("#frmShipment2").serialize();
+
+            $.ajax({
+                url: "@Url.Action("InsertShipment", "HW6")", // Your controller and action
+                type: "POST",
+                headers: { "RequestVerificationToken": $('#frmShipment2 input[name="__RequestVerificationToken"]').val() },
+                data: formData,
+                success: function (response) {
+                    if (response.result === 'Success') {
+                        toastr.success(response.message);  // Show success message
+                    } else if (response.result === 'Warning') {
+                        toastr.warning(response.message);    // Show error message
+                    } else {
+                        toastr.error(response.message);    // Show error message
+                    }
+                },
+                error: function (request, status, error) {
+                    toastr.error("An error occurred: " + request.responseText);  // Show error on failure
+                }
+            });
+        }
+    }
+
+    function funIncreaseSupplierStatus() {
+        $.ajax({
+            url: "@Url.Action("IncreaseSupplierStatus", "HW6")", // Your controller and action
+            type: "POST",
+            success: function (response) {
+                if (response.result === 'OK') {
+                    toastr.success(response.message);  // Show success message
+                } else {
+                    toastr.error(response.message);    // Show error message
+                }
+            },
+            error: function (request, status, error) {
+                toastr.error("An error occurred: " + request.responseText);  // Show error on failure
+            }
+        });
+    }
+
+
+
+
+    function fetchSupplierData() {
+        $.ajax({
+            url: "@Url.Action("GetAllSuppliers", "HW6")", // Adjust to your controller and action
+            type: "GET",
+            success: function (suppliers) {
+                if (suppliers && suppliers.length > 0) {
+                    let table = '<table class="table table-bordered"><thead><tr><th>Sno</th><th>Sname</th><th>Status</th><th>City</th></tr></thead><tbody>';
+                    suppliers.forEach(supplier => {
+                        table += `<tr><td>${supplier.sno}</td><td>${supplier.sname}</td><td>${supplier.status}</td><td>${supplier.city}</td></tr>`;
+                    });
+                    table += '</tbody></table>';
+                    $('#supplierTable').html(table);
+                    toastr.success('Data retrieved successfully');
+                } else {
+                    $('#supplierTable').html('<p>No suppliers found.</p>');
+                    toastr.warning('No suppliers found');
+                }
+            },
+            error: function () {
+                $('#supplierTable').html('<p>An error occurred while fetching supplier data.</p>');
+                toastr.error("An error occurred while fetching supplier data.");
+            }
+        });
+    }
+
+    function fetchSuppliersByPart() {
+        let partNumber = $('#partNumberInput').val().trim();
+
+        if (!partNumber) {
+            toastr.warning("Please enter a part number.");
+            return;
+        }
+
+        $.ajax({
+            url: "@Url.Action("GetSuppliersByPart", "HW6")", // Adjust to your controller and action
+            type: "GET",
+            data: { partNumber: partNumber },
+            success: function (suppliers) {
+                if (suppliers && suppliers.length > 0) {
+                    let table = '<table class="table table-bordered"><thead><tr><th>Sno</th><th>Sname</th><th>Status</th><th>City</th></tr></thead><tbody>';
+                    suppliers.forEach(supplier => {
+                        table += `<tr><td>${supplier.sno}</td><td>${supplier.sname}</td><td>${supplier.status}</td><td>${supplier.city}</td></tr>`;
+                    });
+                    table += '</tbody></table>';
+                    $('#supplierTable1').html(table);
+                    toastr.success('Data retrieved successfully');
+                } else {
+                    $('#supplierTable1').html('<p>No suppliers found for the specified part number.</p>');
+                    toastr.warning('No suppliers found for the specified part number.');
+                }
+            },
+            error: function () {
+                $('#supplierTable1').html('<p>An error occurred while fetching supplier data.</p>');
+                toastr.error("An error occurred while fetching data.");
+            }
+        });
+    }
+</script>

@@ -1,0 +1,33 @@
+C:\Users\Divye\source\repos\ROS\ROS.Model\bin\Debug\net8.0\ROS.Model.deps.json
+C:\Users\Divye\source\repos\ROS\ROS.Model\bin\Debug\net8.0\ROS.Model.dll
+C:\Users\Divye\source\repos\ROS\ROS.Model\bin\Debug\net8.0\ROS.Model.pdb
+C:\Users\Divye\source\repos\ROS\ROS.Model\obj\Debug\net8.0\ROS.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Divye\source\repos\ROS\ROS.Model\obj\Debug\net8.0\ROS.Model.AssemblyInfoInputs.cache
+C:\Users\Divye\source\repos\ROS\ROS.Model\obj\Debug\net8.0\ROS.Model.AssemblyInfo.cs
+C:\Users\Divye\source\repos\ROS\ROS.Model\obj\Debug\net8.0\ROS.Model.csproj.CoreCompileInputs.cache
+C:\Users\Divye\source\repos\ROS\ROS.Model\obj\Debug\net8.0\ROS.Model.dll
+C:\Users\Divye\source\repos\ROS\ROS.Model\obj\Debug\net8.0\refint\ROS.Model.dll
+C:\Users\Divye\source\repos\ROS\ROS.Model\obj\Debug\net8.0\ROS.Model.pdb
+C:\Users\Divye\source\repos\ROS\ROS.Model\obj\Debug\net8.0\ref\ROS.Model.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Model\bin\Debug\net8.0\ROS.Model.deps.json
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Model\bin\Debug\net8.0\ROS.Model.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Model\bin\Debug\net8.0\ROS.Model.pdb
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Model\obj\Debug\net8.0\ROS.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Model\obj\Debug\net8.0\ROS.Model.AssemblyInfoInputs.cache
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Model\obj\Debug\net8.0\ROS.Model.AssemblyInfo.cs
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Model\obj\Debug\net8.0\ROS.Model.csproj.CoreCompileInputs.cache
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Model\obj\Debug\net8.0\ROS.Model.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Model\obj\Debug\net8.0\refint\ROS.Model.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Model\obj\Debug\net8.0\ROS.Model.pdb
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Model\obj\Debug\net8.0\ref\ROS.Model.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Model\bin\Debug\net8.0\ROS.Model.deps.json
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Model\bin\Debug\net8.0\ROS.Model.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Model\bin\Debug\net8.0\ROS.Model.pdb
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Model\obj\Debug\net8.0\ROS.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Model\obj\Debug\net8.0\ROS.Model.AssemblyInfoInputs.cache
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Model\obj\Debug\net8.0\ROS.Model.AssemblyInfo.cs
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Model\obj\Debug\net8.0\ROS.Model.csproj.CoreCompileInputs.cache
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Model\obj\Debug\net8.0\ROS.Model.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Model\obj\Debug\net8.0\refint\ROS.Model.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Model\obj\Debug\net8.0\ROS.Model.pdb
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Model\obj\Debug\net8.0\ref\ROS.Model.dll

@@ -1,0 +1,49 @@
+C:\Users\Divye\source\repos\ROS\ROS.Implement\bin\Debug\net8.0\ROS.Implement.deps.json
+C:\Users\Divye\source\repos\ROS\ROS.Implement\bin\Debug\net8.0\ROS.Implement.dll
+C:\Users\Divye\source\repos\ROS\ROS.Implement\bin\Debug\net8.0\ROS.Implement.pdb
+C:\Users\Divye\source\repos\ROS\ROS.Implement\bin\Debug\net8.0\ROS.Model.dll
+C:\Users\Divye\source\repos\ROS\ROS.Implement\bin\Debug\net8.0\ROS.Model.pdb
+C:\Users\Divye\source\repos\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.csproj.AssemblyReference.cache
+C:\Users\Divye\source\repos\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Divye\source\repos\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.AssemblyInfoInputs.cache
+C:\Users\Divye\source\repos\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.AssemblyInfo.cs
+C:\Users\Divye\source\repos\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.csproj.CoreCompileInputs.cache
+C:\Users\Divye\source\repos\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Impl.98295C99.Up2Date
+C:\Users\Divye\source\repos\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.dll
+C:\Users\Divye\source\repos\ROS\ROS.Implement\obj\Debug\net8.0\refint\ROS.Implement.dll
+C:\Users\Divye\source\repos\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.pdb
+C:\Users\Divye\source\repos\ROS\ROS.Implement\obj\Debug\net8.0\ref\ROS.Implement.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\bin\Debug\net8.0\ROS.Implement.deps.json
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\bin\Debug\net8.0\ROS.Implement.runtimeconfig.json
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\bin\Debug\net8.0\ROS.Implement.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\bin\Debug\net8.0\ROS.Implement.pdb
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\bin\Debug\net8.0\ROS.Model.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\bin\Debug\net8.0\ROS.Model.pdb
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.csproj.AssemblyReference.cache
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.GeneratedMSBuildEditorConfig.editorconfig
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.AssemblyInfoInputs.cache
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.AssemblyInfo.cs
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.csproj.CoreCompileInputs.cache
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Impl.98295C99.Up2Date
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\obj\Debug\net8.0\refint\ROS.Implement.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.pdb
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\obj\Debug\net8.0\ROS.Implement.genruntimeconfig.cache
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\ROS\ROS.Implement\obj\Debug\net8.0\ref\ROS.Implement.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\bin\Debug\net8.0\ROS.Implement.deps.json
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\bin\Debug\net8.0\ROS.Implement.runtimeconfig.json
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\bin\Debug\net8.0\ROS.Implement.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\bin\Debug\net8.0\ROS.Implement.pdb
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\bin\Debug\net8.0\ROS.Model.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\bin\Debug\net8.0\ROS.Model.pdb
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\obj\Debug\net8.0\ROS.Implement.csproj.AssemblyReference.cache
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\obj\Debug\net8.0\ROS.Implement.GeneratedMSBuildEditorConfig.editorconfig
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\obj\Debug\net8.0\ROS.Implement.AssemblyInfoInputs.cache
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\obj\Debug\net8.0\ROS.Implement.AssemblyInfo.cs
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\obj\Debug\net8.0\ROS.Implement.csproj.CoreCompileInputs.cache
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\obj\Debug\net8.0\ROS.Impl.98295C99.Up2Date
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\obj\Debug\net8.0\ROS.Implement.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\obj\Debug\net8.0\refint\ROS.Implement.dll
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\obj\Debug\net8.0\ROS.Implement.pdb
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\obj\Debug\net8.0\ROS.Implement.genruntimeconfig.cache
+D:\MTSU SEM1\DBMS\HomeWorks\HomeWork 6\HW6 Project\ROS.Implement\obj\Debug\net8.0\ref\ROS.Implement.dll
